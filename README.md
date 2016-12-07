@@ -28,7 +28,7 @@ docker run rosenhouse/phantomjs2 phantomjs -v
 2. Extract binary
 
         docker pull rosenhouse/phantomjs2:latest
-        docker run -name temp rosenhouse/phantomjs2
+        docker run --name temp rosenhouse/phantomjs2
         docker cp temp:phantomjs/phantomjs-2.0.0/bin/phantomjs ~/phantomjs
 
 
